@@ -11,7 +11,7 @@ pkg install python
 pkg install python2
 pip install colorama
 pip install amino.py
-git clone https://github.com/LilZevi/AminoChatIdFinder
+git clone https://github.com/LilZevi/AminoCommentBo
 !Для запуска/For starting!
-cd AminoChatIdFinder
-python AminoChatIdFinder.py
+cd AminoCommentBo
+python AminoCommentBo.py
