@@ -4,14 +4,14 @@ AminoCommentBot/Бот для спама,накрутки комментарие
 How to install this bot?/Как установить бота команды снизу
 need for comment spam made by Zevi/Monster
 
-Termux
-apt update -y
-apt upgrade -y
-pkg install python
-pkg install python2
-pip install colorama
-pip install amino.py
-git clone https://github.com/LilZevi/AminoCommentBo
-!Для запуска/For starting!
-cd AminoCommentBo
-python AminoCommentBo.py
+# Termux
+- apt update -y
+- apt upgrade -y
+- pkg install python
+- pkg install python2
+- pip install colorama
+- pip install amino.py
+- git clone https://github.com/LilZevi/AminoCommentBo
+- !Для запуска/For starting!
+- cd AminoCommentBo
+- python AminoCommentBo.py
