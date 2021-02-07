@@ -22,6 +22,7 @@ import amino
 #инпут почты и пароля для входа в аккаунт
 email=input("Email/Почта:")
 password=input("Password/Пароль:")
+client = amino.Client()
 for name, id in zip(client.sub_clients().name, client.sub_clients().comId):
     print(f"{name}: {id}")
 comid = input("Выберите сообщество(id): ")
