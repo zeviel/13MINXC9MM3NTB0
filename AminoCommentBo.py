@@ -19,17 +19,16 @@ print("█▀▄ ▄▀▄ ▀█▀")
 print("█▀█ █░█ ░█░")
 print("▀▀░ ░▀░ ░▀░")
 import amino
-#инпут почты и пароля для входа в аккаунт
 email=input("Email/Почта:")
 password=input("Password/Пароль:")
 client = amino.Client()
 client.login(email=email, password=password)
 print('\nLogged in/Бот зашел!')
-bloglink=input("Blog Link/Ссылка на Блог:")
-blog=client.get_from_code(bloglink)
-blogId=blog.objectId
-comId=blog.path[1:blog.path.index('/')]
-message=input("Message/Сообщение:")
+bloglink = input("Blog Link/Ссылка на Блог:")
+blog = client.get_from_code(bloglink)
+blogId = blog.objectId
+comId = blog.path[1:blog.path.index('/')]
+message = input("Message/Сообщение:")
 sub_client = amino.SubClient(comId=comId,profile=client.profile)
 while True:
 	try:
