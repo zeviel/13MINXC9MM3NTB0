@@ -8,9 +8,8 @@ need for comment spam made by Zevi/Monster
 - apt update -y
 - apt upgrade -y
 - pkg install python
-- pkg install python2
 - pip install colorama
-- pip install amino.py
+- pip install amino.py==1.2.17
 - git clone https://github.com/LilZevi/AminoCommentBo
 - !Для запуска/For starting!
 - cd AminoCommentBo
