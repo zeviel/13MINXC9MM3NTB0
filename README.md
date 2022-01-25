@@ -1,13 +1,14 @@
 # AminoCommentBo
-AminoCommentBo/Blog Comment spammer for Amino
+AminoCommentBo/Blog Comment Spam Bot for Amino
 
-# Termux
+## Termux
+```shell
 - apt update -y
 - apt upgrade -y
 - pkg install python
+- pip install amino.py
 - pip install colorama
-- pip install AminoLab
-- git clone https://github.com/LilZevi/AminoCommentBo
-- !Для запуска/For starting!
+- git clone https://github.com/deluvsushi/AminoCommentBo
 - cd AminoCommentBo
 - python AminoCommentBo.py
+```
