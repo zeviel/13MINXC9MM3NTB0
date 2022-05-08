@@ -1,5 +1,5 @@
 # AminoCommentBo
-AminoCommentBo/Blog Comment Spam Bot for Amino
+Blog comment spam bot for amino
 
 ## Termux
 ```shell
@@ -8,7 +8,7 @@ AminoCommentBo/Blog Comment Spam Bot for Amino
 - pkg install python
 - pip install amino.py
 - pip install colorama
-- git clone https://github.com/deluvsushi/AminoCommentBo
-- cd AminoCommentBo
-- python AminoCommentBo.py
+- git clone https://github.com/deluvsushi/13MINXC9MM3NTB0
+- cd 13MINXC9MM3NTB0
+- python 13MINXC9MM3NTB0.py
 ```
